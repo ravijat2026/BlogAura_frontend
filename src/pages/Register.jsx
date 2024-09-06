@@ -23,7 +23,7 @@ const Register = () => {
       setError(false)
      
       
-      navigate("/verify-email")
+      // navigate("/verify-email")
 
     } catch (error) {
       setError(true)
