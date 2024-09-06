@@ -9,7 +9,6 @@ import EditPost from './pages/EditPost'
 import Profile from './pages/Profile'
 import { UserContextProvider } from './context/UserContext'
 import MyBlogs from './pages/MyBlogs'
-import VerifyEmail from './pages/VerifyEmail'
 
 export default function App() {
   return (
@@ -19,7 +18,6 @@ export default function App() {
       <Route exact path="/" element={<Home/>}/>
       <Route exact path="/login" element={<Login/>}/>
       <Route exact path="/register" element={<Register/>}/>
-      <Route exact path="/verify-email" element={<VerifyEmail/>}/>
       <Route exact path="/write" element={<CreatePost/>}/>
       <Route exact path="/posts/post/:id" element={<PostDetails/>}/>
       <Route exact path="/edit/:id" element={<EditPost/>}/>
