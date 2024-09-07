@@ -1,2 +1,2 @@
-export const URL = "https://blogaura.onrender.com";
-export const IF = "https://blogaura.onrender.com/images/";
+export const URL=import.meta.env.VITE_URL
+export const IF=import.meta.env.VITE_IF
